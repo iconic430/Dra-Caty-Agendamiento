@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --color-ink: #1A1A1A;
+  --color-lavender: #C5A3D1;
+  --color-stone: #F8F8F7;
+  
+  --radius-organic: 3rem;
+}
+
+@layer base {
+  body {
+    @apply bg-stone text-ink font-sans selection:bg-lavender/30 antialiased;
+  }
+}
+
+.font-italic-serif {
+  font-family: var(--font-display);
+  font-style: italic;
+}
+
+.calendar-grid-bg {
+  background: repeating-linear-gradient(45deg, #fcfcfc, #fcfcfc 10px, #ffffff 10px, #ffffff 20px);
+}
