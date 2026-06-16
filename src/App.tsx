@@ -133,14 +133,14 @@ export default function App() {
                 <span className="text-3xl text-lavender font-italic-serif font-light">02</span>
                 <div>
                   <h4 className="text-xs uppercase tracking-widest font-semibold">Paso 2</h4>
-                  <p className="text-[10px] sm:text-[11px] text-white/70 font-light mt-0.5">Asegura tu cupo con un abono</p>
+                  <p className="text-[10px] sm:text-[11px] text-white/70 font-light mt-0.5">Recibe confirmación y prepárate</p>
                 </div>
               </div>
               <div className="flex items-center gap-4 py-2 md:py-0 md:px-6">
                 <span className="text-3xl text-lavender font-italic-serif font-light">03</span>
                 <div>
                   <h4 className="text-xs uppercase tracking-widest font-semibold">Paso 3</h4>
-                  <p className="text-[10px] sm:text-[11px] text-white/70 font-light mt-0.5">Recibe confirmación y prepárate</p>
+                  <p className="text-[10px] sm:text-[11px] text-white/70 font-light mt-0.5">Haz el pago en la consulta</p>
                 </div>
               </div>
             </div>
@@ -196,23 +196,6 @@ export default function App() {
               <p className="text-xs md:text-sm text-ink/80 font-medium leading-relaxed">
                 <span className="font-bold text-amber-950">Cupos Limitados</span> — Solo 3 cupos por día para asegurar atención de máxima exclusividad y personalización.
               </p>
-            </div>
-
-            {/* Question explanation Card */}
-            <div className="bg-white rounded-2xl md:rounded-[2rem] p-5 sm:p-8 md:p-10 border border-black/[0.03] shadow-sm text-center md:text-left flex flex-col gap-4">
-              <h3 className="text-lg md:text-2xl font-italic-serif text-ink italic font-medium">
-                ¿Por qué solicitamos un abono?
-              </h3>
-              <p className="text-xs md:text-sm text-ink/70 leading-relaxed font-light">
-                Garantiza tu espacio exclusivo con la Dra. Caty, una especialista con más de 20 años de experiencia perfeccionando el diseño de sonrisa y más de 300 transformaciones logradas con éxito. El abono de confirmación asegura tu atención de máxima personalización y se tomará totalmente a cuenta del valor total de tu procedimiento.
-              </p>
-              
-              <button
-                onClick={scrollToCalendar}
-                className="mt-2 self-center md:self-start bg-ink text-white py-4 px-10 rounded-full md:rounded-organic text-xs uppercase tracking-[0.2em] font-medium hover:opacity-90 active:scale-[0.99] transition-all cursor-pointer shadow-md"
-              >
-                👉 Agenda tu sesión
-              </button>
             </div>
           </motion.div>
         </section>
